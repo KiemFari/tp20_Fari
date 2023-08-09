@@ -10,7 +10,7 @@
     <title></title>
 </head>
 <body>
-    <form action="">
+    <form action="" id="myForm">
     <div class="page1" id="page1">
         <section class="container1">
           <section class="A">
@@ -20,27 +20,29 @@
         
          <div class="span">
               <h3>REGISTRATION</h3>
-              <div class="circle"> 
+              <!-- <div class="circle"> 
                 <i class="fa-solid fa-circle fars"></i>
                 <i class="fas fa-minus"></i>
                 <i class="fa-solid fa-circle fart" ></i>
                 <i class="fas fa-minus"></i>
                 <i class="fa-solid fa-circle farq" ></i>
-            </div>
+            </div> -->
               <h1>Please fill your details</h1>
               <div class="fari">
-                      <input type="text" name="First name" placeholder="First name" required=""class="form-control">
-                      <input type="text" name="Last name" placeholder="Last name" required=""class="form-control"><br><br><br>
-                      <input type="email" name="Your Email" placeholder="Your Email" required=""class="form-control">
-                      <input type="text" name="Phone number" placeholder="Phone number"required=""class="form-control"><br><br><br>
-                      <input type="text" name="Age" placeholder="Age" required=""class="form-control">
+                      <input type="text" name="First name" placeholder="First name" class="form-control"  id="all">
+                      <input type="text" name="Last name" placeholder="Last name" class="form-control" id="all"><br><br><br>
+                      <input type="email" name="Your Email" placeholder="Your Email" class="form-control" id="all">
+                      <input type="text" name="Phone number" placeholder="Phone number"class="form-control" id="all"><br><br><br>
+                      <input type="text" name="Age" placeholder="Age" class="form-control" id="all">
                       <label for="gender">  
-                          <input type="radio" name="gender" placeholder="Male" required=""> Male
-                          <input type="radio" name="gender" placeholder="Female" required=""> Female <br>
+                          <input type="radio" name="gender" placeholder="Male" > Male
+                          <input type="radio" name="gender" placeholder="Female" > Female <br>
                       </label>
-                      <input type="text" name="Your Country" placeholder="Your Country" required=""  class="form-control">
-                      <input type="" name="" placeholder="" required=""  class="form-control"><br><br>
-                      <button class="vert">Forward<img class="fleche" src="./fleche.png"></button>
+                      <input type="text" name="Your Country" placeholder="Your Country"  class="form-control" id="all"><br><br>
+                      <br>
+                      <span id="error"></span>
+                      <!-- <input type="" name="" placeholder="" class="form-control"><br><br> -->
+                      <button type="submit" class="vert">Forward<img class="fleche" src="./fleche.png"></button>
                 </div>
         </div>
     </section>
