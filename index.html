@@ -10,7 +10,7 @@
     <title>formulaire</title>
 </head>
 <body>
-     <form action="" id="myForm"> 
+     <form> 
     <div class="page1" id="page1">
         <section class="container1">
           <section class="A">
@@ -45,44 +45,82 @@
             </div> --> 
               
 
-                
-                  <span id="error"></span> <br>
-                      <input type="text" name="First name" placeholder="First name" class="form-control"  id="all">
-                      <span id="alert"></span>
-                      <input type="text" name="Last name" placeholder="Last name" class="form-control" id="alles"><br><br><br>
-                      <span id="aller"></span>
-                      <input type="email" name="Your Email" placeholder="Your Email" class="form-control" id="alli">
-                      <span id="erro"></span>
-                      <input type="text" name="Phone number" placeholder="Phone number"class="form-control" id="allis"><br><br><br>
-                      <span id="erroi"></span>
-                      <input type="text" name="Age" placeholder="Age" class="form-control" id="allo">
-                      <span id="errer"></span>
+            <!-- <div class="fari">
+               <form action="forms" id="loi">
+                      <input type="text" name="First name" placeholder="First name" class="form-control"  id="firstName">
+                      <span id="rajout"></span>
+                      <input type="text" name="Last name" placeholder="Last name" class="form-control" id="LastName"><br><br><br>
+                      <span id="rajout1"></span>
+                      <input type="email" name="Your Email" placeholder="Your Email" class="form-control" id="email">
+                      <span id="rajout2"></span>
+                      <input type="text" name="Phone number" placeholder="Phone number"class="form-control" id="phone number"><br><br><br>
+                      <span id="rajout3"></span>
+                      <input type="text" name="Age" placeholder="Age" class="form-control" id="Age">
+                      <span id="rajout4"></span>
                       <label for="gender">  
-                          <input type="radio" name="gender" placeholder="Male" > Male <span id="error"></span>
-                          <input type="radio" name="gender" placeholder="Female" > Female <br><span id="error"></span>
+                          <input type="radio" name="gender" placeholder="Male" id="male"> Male <span id="rajout5"></span>
+                          <input type="radio" name="gender" placeholder="Female" id="female" > Female <span id="rajout6"></span><br>
                       </label><br><br>
                       <div class="col-md-8">
-                       <input type="text" name="Your Country" placeholder="Your Country"  class="form-control" id="allz"><span id="error"></span> -->
-                      
-                      <select class="form-select form-select-lg mb-3" aria-label="Large select example">
-                    <option  class="form-control">Your Country</option>
+                       <input type="text" name="Your Country" placeholder="Your Country"  class="form-control" id="allz"><span id="error"></span> 
+                       -->
+                      <!-- <select class="form-select form-select-lg mb-3" aria-label="Large select example">
+                    <option id="alle" class="form-control">Your Country </option><span id="rajout7"></span>
                     <option value="1">Burkina Faso</option>
                     <option value="2">France</option>
                     <option value="3">Doubai</option>
                 </select> <br><br>
-                    </div><br> 
-                      <span id="error"></span> 
-                      <!-- <input type="" name="" placeholder="" class="form-control"><br><br> --> -->
-                       <button type="submit" class="vert">Forward<img class="fleche" src="./fleche.png"></button><span id="error"></span> 
-                </div>
+                    </div><br>  -->
+                      
+                      <!-- <input type="" name="" placeholder="" class="form-control"><br><br> --> 
+                       <!-- <input type="submit" value="submit" class="vert" >
+                      </form> 
+               
+                    </div> -->
+
+
+                    <div class="fari">
+                      <form action="" method="post" id="loi">
+                        <div class="link">
+                          <div>
+                        <input type="text" name=" name" placeholder="PRENOM" class="form-control"  id="prenom">
+                        <span id="rajout"></span></div>
+                            <div>
+                        <input type="text" name="name" placeholder="NOM" class="form-control"  id="nom">
+                        <span id="rajout1"></span></div>
+                        </div><br><br>
+                        <div class="link">
+                          <div>
+                        <input type="text" name=" name" placeholder="EMAIL" class="form-control"  id="email">
+                        <span id="rajout2"></span></div>
+                        <div>
+                        <input type="text" name=" name" placeholder="PHONE NUMBER" class="form-control"  id="number">
+                        <span id="rajout3"></span></div></div><br><br>
+                        <div class="link">
+                          <div>
+                        <input type="text" name=" name" placeholder="AGE" class="form-control"  id="age">
+                        <span id="rajout4"></span> 
+                      </div>
+                        <input type="radio" name=" gender" placeholder="MALE" class="form-control"  id="male">MALE
+                        
+                        <input type="radio" name=" gender" placeholder="FEMALE" class="form-control"  id="female">FEMALE
+                      </div><br><br>
+                        <div>
+                        <input type="text" name=" name" placeholder="YOUR COUNTRY" class="form-control"  id="country">
+                        <span id="rajout5"></span>
+                      </div><br><br><br>
+                      <button  class="vert" id="bonde">Forward</button>
+                      </form>
+                     
+                    </div>
         </div>
     </section>
  </section>
      </div>
          </form> 
 
-       
-      <script src="./index.js"></script>   
+       <!-- lier js à html -->
+      <script src="index.js"></script>   
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>            
 </body>
